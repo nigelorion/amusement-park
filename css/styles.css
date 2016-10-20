@@ -1,3 +1,22 @@
 li {
-  display: none;
+  font-size: 1.5em;
+  list-style: none;
+  color: white;
+}
+
+body {
+  text-align: center;
+  background-color: black;
+}
+
+h1 {
+  color: green;
+}
+
+h2 {
+  color: white;
+}
+
+img {
+  width: 75%;
 }

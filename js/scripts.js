@@ -5,9 +5,9 @@ var height = parseInt(prompt("How tall are you in inches?"));
 $(document).ready(function() {
 
   if (height >= 36) {
-    $('.adults').show();
+    $(".adults").css("color", "green");
   } else {
-      $('.kids').show();
+      $(".kids").css("color", "green");
   }
 
 
